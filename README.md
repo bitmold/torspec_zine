@@ -8,6 +8,8 @@ git submodule init
 git submodule update
 cp cpd-binaries/YOUR_PLATFORM/cpdf .
 sudo apt install wget texlive-extra-utils weasyprint
+# on mac textlive-extra-utils (for pdfbook2) is:
+# brew install --cask mactex
 ```
 
 ```bash
