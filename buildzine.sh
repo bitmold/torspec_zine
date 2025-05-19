@@ -5,7 +5,7 @@ weasyprint spec.torproject.org/print.html print.pdf
 
 rm -rf zine
 mkdir zine
-./cpdf print.pdf -split -chunk 40 -o ./"zine"/%%%.pdf
+./cpdf print.pdf -split -chunk 80 -o ./"zine"/%%%.pdf
 cd zine 
 echo "Creating booklets from chunks for printing..."
 
