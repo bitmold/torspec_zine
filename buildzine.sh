@@ -15,9 +15,8 @@ echo "Creating booklets from chunks for printing..."
 pwd
 ls -al
 
-pdfbook2 --short-edge -i 20 -o 10 -t 10 -b 10 *
-../pdfbook2/pdfbook2/pdfbook2 --short-edge -i 20 -o 10 -t 10 -b 10 *
+pdfbook2 -i 20 -o 10 -t 10 -b 10 *
 find . -type f \! -name "*book*" -delete
 cd ..
 rm -rf spec.torproject.org
-nano print.pdf
+rm print.pdf
