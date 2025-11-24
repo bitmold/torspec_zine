@@ -1,3 +1,6 @@
 [submodule "cpdf-binaries"]
 	path = cpdf-binaries
 	url = https://github.com/coherentgraphics/cpdf-binaries.git
+[submodule "pdfbook2"]
+	path = pdfbook2
+	url = https://github.com/jenom/pdfbook2.git
